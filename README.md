@@ -49,10 +49,8 @@ api
 │   └─── db.py
 │  
 └───config
-│   └─── gspread
-│         └─── service-api.json
-│ 
-
+    └─── gspread
+          └─── service-api.json
 ```
 
 
