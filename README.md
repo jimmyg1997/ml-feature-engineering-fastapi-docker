@@ -1,21 +1,21 @@
 # ml-feature-engineering-fastapi-docker
 
 
-TECH STACK
+## TECH STACK
 
 For project the following tech stack, APIs, architecture was used and applied: 
 
-Python✅
-FastAPI ✅
-Docker Compose ✅
-Logger ✅
-Mark1 System Design + Configuration ✅
-Spreadsheet API (through gspread wrapper) ✅
+* Python✅
+* FastAPI ✅
+* Docker Compose ✅
+* Logger ✅
+* Mark1 System Design + Configuration ✅
+* Spreadsheet API (through gspread wrapper) ✅
 
 
 
 
-FILES HIERARCHY
+## FILES HIERARCHY
 
 
 
@@ -57,86 +57,87 @@ models.py : All the respective classes for our ontologies (Customer, Loan etc)
 
 
 
-ENDPOINTS
+## ENDPOINTS
 
 Please feel free to hit all our endpoints by visiting http://localhost:8000/docs#/. The list of the endpoints is the following
 
 
+### Endpoints for features
+* **[GET] /api/v1/features/{ontology}** : The basic endpoint which returns all the features generated after applying the feature engineering analysis. The permitted ontologies here are (a) customers (b) loans. In the project requirements we are asked to create the endpoint only for customers, however we expanded our work. This permit us eg. to create a machine learning model that is dedicated to loans analysis, so having features in a loan-based level may be proven useful
+* **[GET] /api/v1/api_status** : The endpoint which returns {“status” : “UP”} if both our basic endpoints /api/v1/features/customers  and /api/v1/features/loans return a status code of 200 after being hit
 
-PROJECT ENDPOINTS
+### Endpoints for loans
+* [GET] /api/v1/loans/ : This endpoint is used when we need to fetch the list of loans currently existing
+* [GET] /api/v1/loans/{loand_id} : This endpoint is used when we need to fetch a specific loan currently existing
+* [POST] /api/v1/loans/ : This endpoint can be used to register a new loan (for a specific customer)
+* [DELETE]  /api/v1/loans/{loan_id} : This endpoint can be used to delete a specific loan
 
-[GET] /api/v1/features/{ontology} : The basic endpoint which returns all the features generated after applying the feature engineering analysis. The permitted ontologies here are (a) customers (b) loans. In the project requirements we are asked to create the endpoint only for customers, however we expanded our work. This permit us eg. to create a machine learning model that is dedicated to loans analysis, so having features in a loan-based level may be proven useful
-[GET] /api/v1/api_status : The endpoint which returns {“status” : “UP”} if both our basic endpoints /api/v1/features/customers  and /api/v1/features/loans return a status code of 200 after being hit
-
-
-EXTRA ENDPOINTS (used)
-
-[POST] /api/v1/features/{ontology} : After hitting the previous endpoint  /api/v1/features/{ontology} , which also saves the features as a “.csv” file we can hit this new endpoint which retrieves the data from the “.csv” file and pushes them into the Optasia API Reporter we created for further analysis. 
-[GET] /api/v1/customers/ : This endpoint is used when we need to fetch the list of customers currently existing
-[GET] /api/v1/customers/{customer_id} : This endpoint is used when we need to fetch a specific customer currently existing
-[GET] /api/v1/database : Fetches the list of customers defined in the ./db/optasia_db.py file, creates local dbs, serialises the data and pushes them into these 2 new data tables (of the same ./db/optasia_db.db database)
-[POST] /api/v1/database/{db_name} : This endpoint is used to clear (recreate an empty data table) for a specific datatable options are (customers, loans) 
-[POST] /api/v1/customers/ : This endpoint can be used to register a new customer
-[PUT]  /api/v1/customers/{customer_id} : This endpoint can be used to update the data of a specific customer
-[DELETE]  /api/v1/customers/{customer_id} : This endpoint can be used to delete a specific customer
+### Endpoints for customers
+* [GET] /api/v1/customers/ : This endpoint is used when we need to fetch the list of customers currently existing
+* [GET] /api/v1/customers/{customer_id} : This endpoint is used when we need to fetch a specific customer currently existing
+* [POST] /api/v1/customers/ : This endpoint can be used to register a new customer
+* [DELETE]  /api/v1/customers/{customer_id} : This endpoint can be used to delete a specific customer
 
 
+### Endpoints for the local db
+* [GET] /api/v1/database : Fetches the list of customers defined in the ./db/optasia_db.py file, creates local dbs, serialises the data and pushes them into these 2 new data tables (of the same ./db/optasia_db.db database)
+* [POST] /api/v1/database/{db_name} : This endpoint is used to clear (recreate an empty data table) for a specific datatable options are (customers, loans) 
 
 
-UNIT TESTING
+
+
+
+## UNIT TESTING
 
 In order for the unit testing to be successful I had to move from a 
 
-“json loading” logic to a dual 
-“json loading” and “local db loading” logic, so that the code is not hard coded only for our given data. 
+* *json loading* logic to a dual 
+* *json loading* and “local db loading” logic, so that the code is not hard coded only for our given data. 
 
 
-Therefore, now with the unit testing (all the tests can be found under /tests/test_api.py) we can create ‘customer’ and ‘loan’ objects that are properly pushed to a local db. All the endpoints retrieve the necessary data from the local db (which is smoothly and systematically updated), except for the [POST] /api/v1/features/{ontology} endpoint (which works smoothly for both json and local db cases)
+Therefore, now with the unit testing (all the tests can be found under **/tests/test_api.py**) we can create *customer* and *loan* objects that are properly pushed to a local db. All the endpoints retrieve the necessary data from the local db (which is smoothly and systematically updated), except for the **[POST] /api/v1/features/{ontology}** endpoint (which works smoothly for both json and local db cases)
 
 
 
 
 
-SPREADSHEET
+## SPREADSHEET
 
 In the spreadsheet Optasia API Reporter several tabs can be found and all are split into 2 clusters
 
-api analysis tabs (1) `customers_features` (2) `loans_features` in which the features generated by the feature engineering process are pushed here
-custom analysis tabs : We first manually inserted all data at (1) `customers_raw` and (2) `loans_raw` tabs. Then we calculated some statistics (normal distribution) for some of the features at (3) `customers_statistics` and (4) `loans_statistics` and finally we gathered all the visualisations under the tab called `visualisations` for further inspection. This is very scalable and this is the reason it was built as a tool. 
+* *api analysis tabs* (1) `customers_features` (2) `loans_features` in which the features generated by the feature engineering process are pushed here
+* *custom analysis tabs* : We first manually inserted all data at (1) `customers_raw` and (2) `loans_raw` tabs. Then we calculated some statistics (normal distribution) for some of the features at (3) `customers_statistics` and (4) `loans_statistics` and finally we gathered all the visualisations under the tab called `visualisations` for further inspection. This is very scalable and this is the reason it was built as a tool. 
 
 
 
 
-RECOMMENDED USAGE
+## RECOMMENDED USAGE
 
-
-
+### step #1
 Execute the command 
 
 
-
-docker-compose up --build
-
+```docker-compose up --build```
 
 
+### step #1
 Visit http://localhost:8000/docs#/.
 
 
-
-Hit endpoint [POST] /api/v1/database/customers  with arguments (customers, customer_id) to flush the local db “customers” 
-Hit endpoint [POST] /api/v1/database/loans  with arguments (loans, loan_id) to flush the local db “loans” 
-Hit endpoint [GET] /api/v1/api_status to validate that both [GET] /api/v1/features/customers and [GET] /api/v1/features/loans are running smoothly 
-Hit endpoint [GET] /api/v1/features/customers to retrieve the features of customers in json format 
-Hit endpoint [GET] /api/v1/features/loans to retrieve the features in json format 
-Hit endpoint [GET] /api/v1/features/customers to retrieve the customers features in json format 
-Hit endpoint [GET] /api/v1/features/loans to retrieve the loans features in json format 
-Hit endpoint [POST] /api/v1/features/customers to upload the customers features on the Optasia API Reporter 
-Hit endpoint [POST] /api/v1/features/loans to upload the loans features on the Optasia API Reporter 
-
+1. Hit endpoint [POST] /api/v1/database/customers  with arguments (customers, customer_id) to flush the local db “customers” 
+2. Hit endpoint [POST] /api/v1/database/loans  with arguments (loans, loan_id) to flush the local db “loans” 
+3. Hit endpoint [GET] /api/v1/api_status to validate that both [GET] /api/v1/features/customers and [GET] /api/v1/features/loans are running smoothly 
+4. Hit endpoint [GET] /api/v1/features/customers to retrieve the features of customers in json format 
+5. Hit endpoint [GET] /api/v1/features/loans to retrieve the features in json format 
+6. Hit endpoint [GET] /api/v1/features/customers to retrieve the customers features in json format 
+7. Hit endpoint [GET] /api/v1/features/loans to retrieve the loans features in json format 
+8. Hit endpoint [POST] /api/v1/features/customers to upload the customers features on the Optasia API Reporter 
+9. Hit endpoint [POST] /api/v1/features/loans to upload the loans features on the Optasia API Reporter 
 
 
 
-FEATURE WORK 
+
+## FEATURE WORK 
 
 Feature Work would be 
 
