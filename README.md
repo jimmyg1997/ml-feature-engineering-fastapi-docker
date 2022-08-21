@@ -126,7 +126,7 @@ After the application starts, navigate to http://localhost:8000 in your web brow
 
 ```
 {
-"Hellow": "World"
+"Hello": "World"
 }
 ```
 
