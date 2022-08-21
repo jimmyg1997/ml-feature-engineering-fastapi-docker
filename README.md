@@ -117,13 +117,21 @@ In the spreadsheet Optasia API Reporter several tabs can be found and all are sp
 
 ## RECOMMENDED USAGE
 
-#### step #1
+#### Deploy with docker compose
 Execute the command 
 
-```docker-compose up --build```
+```$ docker-compose up --build```
+
+After the application starts, navigate to http://localhost:8000 in your web browser and you should see the following json response:
+
+```
+{
+"Hellow": "World"
+}
+```
 
 
-#### step #2
+#### Hit the Endpoints
 Visit http://localhost:8000/docs#/.
 
 
@@ -134,6 +142,11 @@ Visit http://localhost:8000/docs#/.
 5. Hit endpoint ```[GET] /api/v1/features/loans``` to retrieve the features in json format 
 8. Hit endpoint ```[POST] /api/v1/features/customers``` to upload the customers features on the Optasia API Reporter 
 9. Hit endpoint ```[POST] /api/v1/features/loans``` to upload the loans features on the Optasia API Reporter 
+
+
+#### Stop and remove the containers 
+
+```$ docker-compose down```
 
 
 ## FEATURE WORK 
