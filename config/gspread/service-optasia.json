@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "optasia-api",
+  "private_key_id": "8475d9debc110e38e11d7dda50ddf42989dcf0eb",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC4OE6oDQE/hB0W\n6lkJZVn1TsdxzyeIC1NwUYjXq25iHw2IKa5n4kqdwCkOweBLZuu1BOFQlxIsGREr\n0tEbYXJRW4iuKX+LPyWjWNI6mJ5Cfa+YrDiEr5QWhkM+za8m0OtoR9tZHMDKY14y\nh3wTw0UF6i2b0/RByuuJUVszP1Gcrhxay6VIeud8ojd38WwUX/QDZ4SWUOClaA2J\n6mOlt5nvBEmc7i3/cFfo/YBo2N+kDR82rnYpS4xIrQRMnSkCatny6NhkrIIRrhWe\n1nX5b78kOgPE0339T9FXJSPHmO0x3bV8e38gM+NOw0p4U3JeL4zpv3IyGzh7T+wi\nOXa7oT25AgMBAAECggEABuF02qUFtL7KrAZGcL88MW6RrNK3yhvg2sieK66yWZre\n/ATRMqh1RgLH5c5gV3X5fCePAjNqUS2sglkGSMIGguXAK1Ukd5R9DjwCj4APeodM\nQuUShVjeLKCI1snYRBhjOoq4itGz8mXsvka+NSoYJA+U8trjUX5yoWHhs1PRngr4\nbgaZzB5xmuRNuYrYVms1DyB+9Rxi/ZzS9SELf4BgEAFdXA+jNVJB/ZFCbkJLx/rC\nj60M63jmmZR99Ia6cgDVgiGFDY5bLjIFcdmY/GaRYzyamiVmx3sMbw8jFAxT6xSo\nKIoI9Z84IRqa5UBpxWcL6jqxEuIUreQKseDUG2XJwQKBgQD16pUUS2cZdikfaxDL\n6AvSmNlIzwz1XyHxG3MnWoi22m8FnDHgn7cZpsVwIP2Bier+pVyUkfF5m3rzqp+m\nnTHjpWSr/hghZd5s7sZJZ6EXXBsYoxlQXZpo8ebMy6p8m2DD3tJ99I9yCZjPXvsI\nw3dwJJp2HaiDuzDaSpdbNnbYiQKBgQC/xhblfEs+rXczA4cHVVrlVWgjqTbV7CA6\nPgs9s2C2u4nzNBF9v14ekjLD1ECZWp8U04az4un0BL0e8PK5EVXymALEu/sEkEjx\nOqFZ+dN9ArSF2j6xGJs4CEemkbzn+mQh/+Co8FxBIOdWzneO6EBML86nuffeHaEy\nKqbVKjmPsQKBgG6+Eh6OikJMFN7CL1E0EUbocEk6fKJvEfDrJKNfQNvfaEnFeiym\noCUcFiOVp7PTMRE11IhPZMgXvXnHp5e3iIT0sW5GwgUgQ9cYfBEIauIDJ2yj3j1z\nuZpy/TXSrdbpfd0XFgGExahcLAWOx0u+AqZsxWZVmtKf1LMpDhoUX9bJAoGBALMD\nPixJshN36WT9TfZSft7EsslXE5DtMcgsUmHuJ8FrnoIfgJRZJopy/mA+qW59YTIX\nog4ZKzpVkhRn5qtKu2gQ7cSnlNHVvcEwcZ2Dzx9KfyjTaOH3jiznzbp3IFeLLB1w\ntU390KAbDtfBM2l680oq9kUrG22DSw2BMuqY19KBAoGBAIpCz4SWxhfnkrZ70TkU\nZFe9KszvjYcpYCUcUKLSgNtZ+UBn1bB1c1r3XKLWs5sgvb+1l9ma09UFVLENxU3L\nSkh6nyGURD8BOvSbgFMdKbjCvisFnjTVfWKMBRNGwI0M1QJqWTIhA49UYmwv/vnC\nzyIthPINhaG6zSrFjMzKgD9t\n-----END PRIVATE KEY-----\n",
+  "client_email": "optasia-api@optasia-api.iam.gserviceaccount.com",
+  "client_id": "112474518074704248666",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/optasia-api%40optasia-api.iam.gserviceaccount.com"
+}

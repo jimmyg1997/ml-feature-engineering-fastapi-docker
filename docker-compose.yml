@@ -1,0 +1,28 @@
+# version: "3"
+# services:
+#   app_launch:
+#     build: .
+#     working_dir: /main
+#     command: uvicorn main:app --host 0.0.0.0 --reload
+#     #image: fastapi-service:dev
+#     environment:
+#       DEBUG: 1
+#     ports:
+#     - "8000:8000"
+#     volumes:
+#     - .:/app
+
+
+
+version: "3"
+services:
+  api:
+    # Specifies the path to Docker file &&the tag name respectively.
+    build: ./
+    image: optasia/demo-docker:v1
+    # Specifies the set of commands we want to run inside the container.
+    command:  uvicorn src.main:app --reload --workers 1 --host 0.0.0.0 --port 8000
+    # Specifies port mappings <host_port>:<container_port>
+    ports:
+      - 8000:8000
+

@@ -1,0 +1,17 @@
+textblob==0.17.1
+diophila==0.3.0
+ujson==5.1.0
+tqdm==4.63.0
+pytest==7.1.2
+python-louvain
+pydot
+featuretools 
+fastapi
+docker
+IPython
+gspread
+matplotlib
+seaborn
+graphviz
+dataset
+uvicorn
