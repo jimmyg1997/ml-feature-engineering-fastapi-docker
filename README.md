@@ -64,24 +64,24 @@ models.py : All the respective classes for our ontologies (Customer, Loan etc)
 Please feel free to hit all our endpoints by visiting http://localhost:8000/docs#/. The list of the endpoints is the following
 
 
-### Endpoints for features
-* **[GET] /api/v1/features/{ontology}** : The basic endpoint which returns all the features generated after applying the feature engineering analysis. The permitted ontologies here are (a) customers (b) loans. In the project requirements we are asked to create the endpoint only for customers, however we expanded our work. This permit us eg. to create a machine learning model that is dedicated to loans analysis, so having features in a loan-based level may be proven useful
+#### Endpoints for features
+* ```[GET] /api/v1/features/{ontology}``` : The basic endpoint which returns all the features generated after applying the feature engineering analysis. The permitted ontologies here are (a) customers (b) loans. In the project requirements we are asked to create the endpoint only for customers, however we expanded our work. This permit us eg. to create a machine learning model that is dedicated to loans analysis, so having features in a loan-based level may be proven useful
 * **[GET] /api/v1/api_status** : The endpoint which returns {“status” : “UP”} if both our basic endpoints /api/v1/features/customers  and /api/v1/features/loans return a status code of 200 after being hit
 
-### Endpoints for loans
+#### Endpoints for loans
 * [GET] /api/v1/loans/ : This endpoint is used when we need to fetch the list of loans currently existing
 * [GET] /api/v1/loans/{loand_id} : This endpoint is used when we need to fetch a specific loan currently existing
 * [POST] /api/v1/loans/ : This endpoint can be used to register a new loan (for a specific customer)
 * [DELETE]  /api/v1/loans/{loan_id} : This endpoint can be used to delete a specific loan
 
-### Endpoints for customers
+#### Endpoints for customers
 * [GET] /api/v1/customers/ : This endpoint is used when we need to fetch the list of customers currently existing
 * [GET] /api/v1/customers/{customer_id} : This endpoint is used when we need to fetch a specific customer currently existing
 * [POST] /api/v1/customers/ : This endpoint can be used to register a new customer
 * [DELETE]  /api/v1/customers/{customer_id} : This endpoint can be used to delete a specific customer
 
 
-### Endpoints for the local db
+#### Endpoints for the local db
 * [GET] /api/v1/database : Fetches the list of customers defined in the ./db/optasia_db.py file, creates local dbs, serialises the data and pushes them into these 2 new data tables (of the same ./db/optasia_db.db database)
 * [POST] /api/v1/database/{db_name} : This endpoint is used to clear (recreate an empty data table) for a specific datatable options are (customers, loans) 
 
@@ -124,14 +124,14 @@ Execute the command
 #### step #2
 Visit http://localhost:8000/docs#/.
 
-```
-1. Hit endpoint **[POST] /api/v1/database/customers**  with arguments (customers, customer_id) to flush the local db “customers” 
-2. Hit endpoint **[POST] /api/v1/database/loans**  with arguments (loans, loan_id) to flush the local db “loans” 
-3. Hit endpoint **[GET] /api/v1/api_status** to validate that both [GET] /api/v1/features/customers and [GET] /api/v1/features/loans are running smoothly 
-4. Hit endpoint **[GET] /api/v1/features/customers** to retrieve the features of customers in json format 
-5. Hit endpoint **[GET] /api/v1/features/loans** to retrieve the features in json format 
-8. Hit endpoint **[POST] /api/v1/features/customers** to upload the customers features on the Optasia API Reporter 
-9. Hit endpoint **[POST] /api/v1/features/loans** to upload the loans features on the Optasia API Reporter 
+
+1. Hit endpoint ```[POST] /api/v1/database/customers```  with arguments (customers, customer_id) to flush the local db “customers” 
+2. Hit endpoint ```[POST] /api/v1/database/loans```  with arguments (loans, loan_id) to flush the local db “loans” 
+3. Hit endpoint ```[GET] /api/v1/api_status``` to validate that both [GET] /api/v1/features/customers and [GET] /api/v1/features/loans are running smoothly 
+4. Hit endpoint ```[GET] /api/v1/features/customers``` to retrieve the features of customers in json format 
+5. Hit endpoint ```[GET] /api/v1/features/loans``` to retrieve the features in json format 
+8. Hit endpoint ```[POST] /api/v1/features/customers``` to upload the customers features on the Optasia API Reporter 
+9. Hit endpoint ```[POST] /api/v1/features/loans``` to upload the loans features on the Optasia API Reporter 
 ```
 
 
