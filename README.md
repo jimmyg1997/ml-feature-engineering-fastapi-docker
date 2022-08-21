@@ -1,4 +1,6 @@
-# ml-feature-engineering-fastapi-docker
+# Feature Engineering API for ML purposes
+The objective of this prohcet is to create a simpl feature engineering module that generates some features/variables that are useful for modeling. The python module (which is dockerized) is called via an API endpoint, returning some features/variables. 11 more endpoints were built to support the functionality
+
 
 
 ## TECH STACK
@@ -113,27 +115,24 @@ In the spreadsheet Optasia API Reporter several tabs can be found and all are sp
 
 ## RECOMMENDED USAGE
 
-### step #1
+#### step #1
 Execute the command 
-
 
 ```docker-compose up --build```
 
 
-### step #1
+#### step #2
 Visit http://localhost:8000/docs#/.
 
-
-1. Hit endpoint [POST] /api/v1/database/customers  with arguments (customers, customer_id) to flush the local db “customers” 
-2. Hit endpoint [POST] /api/v1/database/loans  with arguments (loans, loan_id) to flush the local db “loans” 
-3. Hit endpoint [GET] /api/v1/api_status to validate that both [GET] /api/v1/features/customers and [GET] /api/v1/features/loans are running smoothly 
-4. Hit endpoint [GET] /api/v1/features/customers to retrieve the features of customers in json format 
-5. Hit endpoint [GET] /api/v1/features/loans to retrieve the features in json format 
-6. Hit endpoint [GET] /api/v1/features/customers to retrieve the customers features in json format 
-7. Hit endpoint [GET] /api/v1/features/loans to retrieve the loans features in json format 
-8. Hit endpoint [POST] /api/v1/features/customers to upload the customers features on the Optasia API Reporter 
-9. Hit endpoint [POST] /api/v1/features/loans to upload the loans features on the Optasia API Reporter 
-
+```
+1. Hit endpoint **[POST] /api/v1/database/customers**  with arguments (customers, customer_id) to flush the local db “customers” 
+2. Hit endpoint **[POST] /api/v1/database/loans**  with arguments (loans, loan_id) to flush the local db “loans” 
+3. Hit endpoint **[GET] /api/v1/api_status** to validate that both [GET] /api/v1/features/customers and [GET] /api/v1/features/loans are running smoothly 
+4. Hit endpoint **[GET] /api/v1/features/customers** to retrieve the features of customers in json format 
+5. Hit endpoint **[GET] /api/v1/features/loans** to retrieve the features in json format 
+8. Hit endpoint **[POST] /api/v1/features/customers** to upload the customers features on the Optasia API Reporter 
+9. Hit endpoint **[POST] /api/v1/features/loans** to upload the loans features on the Optasia API Reporter 
+```
 
 
 
@@ -141,8 +140,8 @@ Visit http://localhost:8000/docs#/.
 
 Feature Work would be 
 
-To build more endpoints
-To extract more features manually
-To build baseline machine learning models and extracts feature importances (through the use of the LIME algorithm)
-To optimise machine learning models by experimenting (and also saving the experiment configurations and results properly eg. Spreadsheet)
-To optimise deep learning models (maybe it is not required in our case the we only have 100 samples of customers) 
+* To build more endpoints
+* To extract more features manually
+* To build baseline machine learning models and extracts feature importances (through the use of the LIME algorithm)
+* To optimise machine learning models by experimenting (and also saving the experiment configurations and results properly eg. Spreadsheet)
+* To optimise deep learning models (maybe it is not required in our case the we only have 100 samples of customers) 
