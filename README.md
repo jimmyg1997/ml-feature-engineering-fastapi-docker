@@ -120,7 +120,7 @@ In the spreadsheet [Feature Engineering API Reporter](https://docs.google.com/sp
 ####  Setup Python Virtual Environment
 1. apt-get update
 2. sudo apt install python3-pip
-3. download the installer for your python version at https://docs.conda.io/en/latest/miniconda.html#linux-installers
+3. download the [installer](https://docs.conda.io/en/latest/miniconda.html#linux-installers) for your python version 
 (run "python -V" or "python3 -V" to see your version)
 4. run the installer and follow instructions
 5. source ~/.bashrc #or restart shell
