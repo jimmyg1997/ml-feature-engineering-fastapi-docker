@@ -117,6 +117,17 @@ In the spreadsheet Optasia API Reporter several tabs can be found and all are sp
 
 ## RECOMMENDED USAGE
 
+####  Setup Python Virtual Environment
+1. apt-get update
+2. sudo apt install python3-pip
+3. download the installer for your python version at https://docs.conda.io/en/latest/miniconda.html#linux-installers
+(run "python -V" or "python3 -V" to see your version)
+4. run the installer and follow instructions
+5. source ~/.bashrc #or restart shell
+6. conda install python=3.8
+7. conda create --name featengapi python=3.8
+8. conda activate featengapi
+
 #### Deploy with docker compose
 Execute the command 
 
