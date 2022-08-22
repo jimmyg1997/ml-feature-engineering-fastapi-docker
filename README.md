@@ -1,5 +1,5 @@
 # Feature Engineering API for ML purposes
-The objective of this prohcet is to create a simpl feature engineering module that generates some features/variables that are useful for modeling. The python module (which is dockerized) is called via an API endpoint, returning some features/variables. 11 more endpoints were built to support the functionality
+The objective of this **project** is to create a simple feature engineering module that generates some features/variables that are useful for further Machine & Deep Learning modeling. The python module (which is dockerized) is called via an API endpoint, returning some features/variables. 11 more endpoints were built to support the functionality
 
 
 
@@ -64,6 +64,9 @@ api
 ## 📌 ENDPOINTS
 
 Please feel free to hit all our endpoints by visiting http://localhost:8000/docs#/. The list of the endpoints is the following
+
+![Alt text](https://github.com/jimmyg1997/ml-feature-engineering-fastapi-docker/blob/main/images/fastapi.png?raw=true "Feature Engineering API")
+
 
 
 #### Endpoints for features
