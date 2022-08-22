@@ -9,7 +9,7 @@ from typing          import Optional, List, Dict, Any
 from IPython.display import display
 
 ## API modules
-from fastapi import FastAPI, HTTPException, status
+from fastapi            import FastAPI, HTTPException, status
 from fastapi.testclient import TestClient
 import docker
 
@@ -23,7 +23,7 @@ from src.data_reporting      import DataReporter
 from src.feature_engineering import FeatureEngineer
 
 ## Testing db
-from db.optasia_db import db
+from db.db import db
 
 
 # client = docker.from_env()
@@ -139,7 +139,7 @@ async def upload_features(ontology : str):
 
 	data_reporter = DataReporter(mk1, config)
 	features_path = str(config.get("features",f"features_{ontology}_path"))
-	features_tab  = str(config.get("google_sheets", f"optasia_reporter_tab_{ontology}_features"))
+	features_tab  = str(config.get("google_sheets", f"api_reporter_tab_{ontology}_features"))
 	features_df   = pd.read_csv(features_path, index_col = 0)
 	features_df   = data_reporter.cast_to_spreadsheet_friendly_format(features_df)
 

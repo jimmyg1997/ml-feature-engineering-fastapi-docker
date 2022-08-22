@@ -24,4 +24,4 @@ fast_api_app:
 
 ### Network shortcuts
 fast_api_net_app : 
-	docker run --rm --name app --net=optasia_api_net -p 8000:8000 fastapi_example
+	docker run --rm --name app --net=fast_api_net -p 8000:8000 fastapi_example

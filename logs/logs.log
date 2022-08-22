@@ -1,0 +1,244 @@
+2022-08-20 13:34:39 - INFO - ---------------------------------- Optasia API Started
+2022-08-20 13:34:40 - ERROR - (test_api.test_fetch_customer) Hitting endpoint /api/v1/customers/1090 failed (status code 200) : 
+2022-08-20 13:35:33 - INFO - ---------------------------------- Optasia API Started
+2022-08-20 13:35:33 - INFO - (test_api.test_fetch_customer) Endpoint /api/v1/customers/1090 runs sucessfully ✅
+2022-08-20 13:35:33 - INFO - (test_api.test_register_customer) Endpoint /api/v1/customers/ runs sucessfully ✅
+2022-08-20 13:35:33 - INFO - (test_api.test_fetch_loan) Endpoint /api/v1/customers/1090 runs sucessfully ✅
+2022-08-20 13:35:33 - INFO - (test_api.test_register_loan) Endpoint /api/v1/loans for the loan registration was sucessful ✅
+2022-08-20 13:35:33 - INFO - (test_api.test_delete_customer) Endpoint /api/v1/customers/1090 runs sucessfully ✅
+2022-08-20 13:35:33 - INFO - (test_api.test_delete_loan) Endpoint /api/v1/loans/15 runs sucessfully ✅
+2022-08-20 13:35:33 - INFO - (DataLoader.postprocess_loans_dataframe) Loans Data are postprocessed sucessfully ✅
+2022-08-20 13:35:33 - INFO - (FeatureEngineer.extract_features_loans) Manual extraction of features for the loans dataframe was successful ✅
+2022-08-20 13:35:33 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-20 13:35:33 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-20 13:35:33 - INFO - (FeatureEngineer.add_relationship) The tuple indicating the relationship between 2 dataframes was sucessfully added to the list of relationshipss ✅
+2022-08-20 13:35:33 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-20 13:35:33 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-20 13:35:33 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-20 13:35:33 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-20 13:35:33 - INFO - (test_api.test_fetch_customers_features) Endpoint /api/v1/features/customers runs sucessfully ✅
+2022-08-20 13:35:33 - INFO - (DataLoader.postprocess_loans_dataframe) Loans Data are postprocessed sucessfully ✅
+2022-08-20 13:35:33 - INFO - (FeatureEngineer.extract_features_loans) Manual extraction of features for the loans dataframe was successful ✅
+2022-08-20 13:35:33 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-20 13:35:33 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-20 13:35:33 - INFO - (FeatureEngineer.add_relationship) The tuple indicating the relationship between 2 dataframes was sucessfully added to the list of relationshipss ✅
+2022-08-20 13:35:33 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-20 13:35:34 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-20 13:35:34 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-20 13:35:34 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-20 13:35:34 - INFO - (test_api.test_fetch_customers_features) Endpoint /api/v1/features/customers runs sucessfully ✅
+2022-08-20 13:35:34 - INFO - (DataReporter.cast_to_spreadsheet_friendly_format) Columns casted to string for compatability with Spreadsheets API ✅
+2022-08-20 13:35:35 - INFO - (DataReporter.write_to_spreadsheet) Data uploaded to Spreadsheet successfully ✅
+2022-08-20 13:35:35 - INFO - (test_api.test_upload_features_customers) Endpoint /api/v1/features/customers for features uploading runs sucessfully ✅
+2022-08-20 13:35:35 - INFO - (DataReporter.cast_to_spreadsheet_friendly_format) Columns casted to string for compatability with Spreadsheets API ✅
+2022-08-20 13:35:37 - INFO - (DataReporter.write_to_spreadsheet) Data uploaded to Spreadsheet successfully ✅
+2022-08-20 13:35:37 - INFO - (test_api.test_upload_features_loans) Endpoint /api/v1/features/loans for features uploading runs sucessfully ✅
+2022-08-20 13:36:01 - INFO - ---------------------------------- Optasia API Started
+2022-08-20 13:36:01 - INFO - (test_api.test_fetch_customer) Endpoint /api/v1/customers/1090 runs sucessfully ✅
+2022-08-20 13:36:01 - INFO - (test_api.test_register_customer) Endpoint /api/v1/customers/ runs sucessfully ✅
+2022-08-20 13:36:01 - INFO - (test_api.test_fetch_loan) Endpoint /api/v1/customers/1090 runs sucessfully ✅
+2022-08-20 13:36:01 - INFO - (test_api.test_register_loan) Endpoint /api/v1/loans for the loan registration was sucessful ✅
+2022-08-20 13:36:01 - INFO - (test_api.test_delete_customer) Endpoint /api/v1/customers/1090 runs sucessfully ✅
+2022-08-20 13:36:01 - INFO - (test_api.test_delete_loan) Endpoint /api/v1/loans/15 runs sucessfully ✅
+2022-08-20 13:36:01 - INFO - (DataLoader.postprocess_loans_dataframe) Loans Data are postprocessed sucessfully ✅
+2022-08-20 13:36:01 - INFO - (FeatureEngineer.extract_features_loans) Manual extraction of features for the loans dataframe was successful ✅
+2022-08-20 13:36:01 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-20 13:36:01 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-20 13:36:01 - INFO - (FeatureEngineer.add_relationship) The tuple indicating the relationship between 2 dataframes was sucessfully added to the list of relationshipss ✅
+2022-08-20 13:36:01 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-20 13:36:01 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-20 13:36:01 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-20 13:36:01 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-20 13:36:01 - INFO - (test_api.test_fetch_customers_features) Endpoint /api/v1/features/customers runs sucessfully ✅
+2022-08-20 13:36:01 - INFO - (DataLoader.postprocess_loans_dataframe) Loans Data are postprocessed sucessfully ✅
+2022-08-20 13:36:01 - INFO - (FeatureEngineer.extract_features_loans) Manual extraction of features for the loans dataframe was successful ✅
+2022-08-20 13:36:01 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-20 13:36:01 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-20 13:36:01 - INFO - (FeatureEngineer.add_relationship) The tuple indicating the relationship between 2 dataframes was sucessfully added to the list of relationshipss ✅
+2022-08-20 13:36:01 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-20 13:36:01 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-20 13:36:01 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-20 13:36:01 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-20 13:36:01 - INFO - (test_api.test_fetch_customers_features) Endpoint /api/v1/features/customers runs sucessfully ✅
+2022-08-20 13:36:01 - INFO - (DataReporter.cast_to_spreadsheet_friendly_format) Columns casted to string for compatability with Spreadsheets API ✅
+2022-08-20 13:36:03 - INFO - (DataReporter.write_to_spreadsheet) Data uploaded to Spreadsheet successfully ✅
+2022-08-20 13:36:03 - INFO - (test_api.test_upload_features_customers) Endpoint /api/v1/features/customers for features uploading runs sucessfully ✅
+2022-08-20 13:36:03 - INFO - (DataReporter.cast_to_spreadsheet_friendly_format) Columns casted to string for compatability with Spreadsheets API ✅
+2022-08-20 13:36:04 - INFO - (DataReporter.write_to_spreadsheet) Data uploaded to Spreadsheet successfully ✅
+2022-08-20 13:36:04 - INFO - (test_api.test_upload_features_loans) Endpoint /api/v1/features/loans for features uploading runs sucessfully ✅
+2022-08-20 13:36:57 - INFO - ---------------------------------- Optasia API Started
+2022-08-20 13:36:57 - INFO - (test_api.test_fetch_customer) Endpoint /api/v1/customers/1090 runs sucessfully ✅
+2022-08-20 13:36:57 - INFO - (test_api.test_register_customer) Endpoint /api/v1/customers/ runs sucessfully ✅
+2022-08-20 13:36:57 - INFO - (test_api.test_fetch_loan) Endpoint /api/v1/customers/1090 runs sucessfully ✅
+2022-08-20 13:36:57 - INFO - (test_api.test_register_loan) Endpoint /api/v1/loans for the loan registration was sucessful ✅
+2022-08-20 13:36:57 - INFO - (test_api.test_delete_customer) Endpoint /api/v1/customers/1090 runs sucessfully ✅
+2022-08-20 13:36:57 - INFO - (test_api.test_delete_loan) Endpoint /api/v1/loans/15 runs sucessfully ✅
+2022-08-20 13:36:57 - INFO - (DataLoader.postprocess_loans_dataframe) Loans Data are postprocessed sucessfully ✅
+2022-08-20 13:36:57 - INFO - (FeatureEngineer.extract_features_loans) Manual extraction of features for the loans dataframe was successful ✅
+2022-08-20 13:36:57 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-20 13:36:57 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-20 13:36:57 - INFO - (FeatureEngineer.add_relationship) The tuple indicating the relationship between 2 dataframes was sucessfully added to the list of relationshipss ✅
+2022-08-20 13:36:58 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-20 13:36:58 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-20 13:36:58 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-20 13:36:58 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-20 13:36:58 - INFO - (test_api.test_fetch_customers_features) Endpoint /api/v1/features/customers runs sucessfully ✅
+2022-08-20 13:36:58 - INFO - (DataLoader.postprocess_loans_dataframe) Loans Data are postprocessed sucessfully ✅
+2022-08-20 13:36:58 - INFO - (FeatureEngineer.extract_features_loans) Manual extraction of features for the loans dataframe was successful ✅
+2022-08-20 13:36:58 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-20 13:36:58 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-20 13:36:58 - INFO - (FeatureEngineer.add_relationship) The tuple indicating the relationship between 2 dataframes was sucessfully added to the list of relationshipss ✅
+2022-08-20 13:36:58 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-20 13:36:58 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-20 13:36:58 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-20 13:36:58 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-20 13:36:58 - INFO - (test_api.test_fetch_customers_features) Endpoint /api/v1/features/customers runs sucessfully ✅
+2022-08-20 13:36:58 - INFO - (DataReporter.cast_to_spreadsheet_friendly_format) Columns casted to string for compatability with Spreadsheets API ✅
+2022-08-20 13:36:59 - INFO - (DataReporter.write_to_spreadsheet) Data uploaded to Spreadsheet successfully ✅
+2022-08-20 13:36:59 - INFO - (test_api.test_upload_features_customers) Endpoint /api/v1/features/customers for features uploading runs sucessfully ✅
+2022-08-20 13:36:59 - INFO - (DataReporter.cast_to_spreadsheet_friendly_format) Columns casted to string for compatability with Spreadsheets API ✅
+2022-08-20 13:37:01 - INFO - (DataReporter.write_to_spreadsheet) Data uploaded to Spreadsheet successfully ✅
+2022-08-20 13:37:01 - INFO - (test_api.test_upload_features_loans) Endpoint /api/v1/features/loans for features uploading runs sucessfully ✅
+2022-08-22 14:59:35 - INFO - ---------------------------------- Feature Engineering API Started
+2022-08-22 14:59:35 - ERROR - (test_api.test_fetch_customer) Hitting endpoint /api/v1/customers/1090 failed (status code 200) : 
+2022-08-22 15:00:09 - INFO - ---------------------------------- Feature Engineering API Started
+2022-08-22 15:00:09 - INFO - (test_api.test_fetch_customer) Endpoint /api/v1/customers/1090 runs sucessfully ✅
+2022-08-22 15:00:09 - INFO - (test_api.test_register_customer) Endpoint /api/v1/customers/ runs sucessfully ✅
+2022-08-22 15:00:09 - INFO - (test_api.test_fetch_loan) Endpoint /api/v1/customers/1090 runs sucessfully ✅
+2022-08-22 15:00:09 - INFO - (test_api.test_register_loan) Endpoint /api/v1/loans for the loan registration was sucessful ✅
+2022-08-22 15:00:09 - INFO - (test_api.test_delete_customer) Endpoint /api/v1/customers/1090 runs sucessfully ✅
+2022-08-22 15:00:09 - INFO - (test_api.test_delete_loan) Endpoint /api/v1/loans/15 runs sucessfully ✅
+2022-08-22 15:00:10 - INFO - (DataLoader.postprocess_loans_dataframe) Loans Data are postprocessed sucessfully ✅
+2022-08-22 15:00:10 - INFO - (FeatureEngineer.extract_features_loans) Manual extraction of features for the loans dataframe was successful ✅
+2022-08-22 15:00:10 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-22 15:00:10 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-22 15:00:10 - INFO - (FeatureEngineer.add_relationship) The tuple indicating the relationship between 2 dataframes was sucessfully added to the list of relationshipss ✅
+2022-08-22 15:00:10 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-22 15:00:10 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-22 15:00:10 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-22 15:00:10 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-22 15:00:10 - INFO - (test_api.test_fetch_customers_features) Endpoint /api/v1/features/customers runs sucessfully ✅
+2022-08-22 15:00:10 - INFO - (DataLoader.postprocess_loans_dataframe) Loans Data are postprocessed sucessfully ✅
+2022-08-22 15:00:10 - INFO - (FeatureEngineer.extract_features_loans) Manual extraction of features for the loans dataframe was successful ✅
+2022-08-22 15:00:10 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-22 15:00:10 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-22 15:00:10 - INFO - (FeatureEngineer.add_relationship) The tuple indicating the relationship between 2 dataframes was sucessfully added to the list of relationshipss ✅
+2022-08-22 15:00:10 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-22 15:00:10 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-22 15:00:10 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-22 15:00:10 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-22 15:00:10 - INFO - (test_api.test_fetch_customers_features) Endpoint /api/v1/features/customers runs sucessfully ✅
+2022-08-22 15:00:23 - INFO - ---------------------------------- Feature Engineering API Started
+2022-08-22 15:00:23 - INFO - (test_api.test_fetch_customer) Endpoint /api/v1/customers/1090 runs sucessfully ✅
+2022-08-22 15:00:23 - INFO - (test_api.test_register_customer) Endpoint /api/v1/customers/ runs sucessfully ✅
+2022-08-22 15:00:23 - INFO - (test_api.test_fetch_loan) Endpoint /api/v1/customers/1090 runs sucessfully ✅
+2022-08-22 15:00:23 - INFO - (test_api.test_register_loan) Endpoint /api/v1/loans for the loan registration was sucessful ✅
+2022-08-22 15:00:23 - INFO - (test_api.test_delete_customer) Endpoint /api/v1/customers/1090 runs sucessfully ✅
+2022-08-22 15:00:23 - INFO - (test_api.test_delete_loan) Endpoint /api/v1/loans/15 runs sucessfully ✅
+2022-08-22 15:00:23 - INFO - (DataLoader.postprocess_loans_dataframe) Loans Data are postprocessed sucessfully ✅
+2022-08-22 15:00:23 - INFO - (FeatureEngineer.extract_features_loans) Manual extraction of features for the loans dataframe was successful ✅
+2022-08-22 15:00:23 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-22 15:00:23 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-22 15:00:23 - INFO - (FeatureEngineer.add_relationship) The tuple indicating the relationship between 2 dataframes was sucessfully added to the list of relationshipss ✅
+2022-08-22 15:00:23 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-22 15:00:24 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-22 15:00:24 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-22 15:00:24 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-22 15:00:24 - INFO - (test_api.test_fetch_customers_features) Endpoint /api/v1/features/customers runs sucessfully ✅
+2022-08-22 15:00:24 - INFO - (DataLoader.postprocess_loans_dataframe) Loans Data are postprocessed sucessfully ✅
+2022-08-22 15:00:24 - INFO - (FeatureEngineer.extract_features_loans) Manual extraction of features for the loans dataframe was successful ✅
+2022-08-22 15:00:24 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-22 15:00:24 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-22 15:00:24 - INFO - (FeatureEngineer.add_relationship) The tuple indicating the relationship between 2 dataframes was sucessfully added to the list of relationshipss ✅
+2022-08-22 15:00:24 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-22 15:00:24 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-22 15:00:24 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-22 15:00:24 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-22 15:00:24 - INFO - (test_api.test_fetch_customers_features) Endpoint /api/v1/features/customers runs sucessfully ✅
+2022-08-22 15:00:54 - INFO - ---------------------------------- Feature Engineering API Started
+2022-08-22 15:00:54 - INFO - (test_api.test_fetch_customer) Endpoint /api/v1/customers/1090 runs sucessfully ✅
+2022-08-22 15:00:54 - INFO - (test_api.test_register_customer) Endpoint /api/v1/customers/ runs sucessfully ✅
+2022-08-22 15:00:54 - INFO - (test_api.test_fetch_loan) Endpoint /api/v1/customers/1090 runs sucessfully ✅
+2022-08-22 15:00:54 - INFO - (test_api.test_register_loan) Endpoint /api/v1/loans for the loan registration was sucessful ✅
+2022-08-22 15:00:54 - INFO - (test_api.test_delete_customer) Endpoint /api/v1/customers/1090 runs sucessfully ✅
+2022-08-22 15:00:54 - INFO - (test_api.test_delete_loan) Endpoint /api/v1/loans/15 runs sucessfully ✅
+2022-08-22 15:00:54 - INFO - (DataLoader.postprocess_loans_dataframe) Loans Data are postprocessed sucessfully ✅
+2022-08-22 15:00:54 - INFO - (FeatureEngineer.extract_features_loans) Manual extraction of features for the loans dataframe was successful ✅
+2022-08-22 15:00:54 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-22 15:00:54 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-22 15:00:54 - INFO - (FeatureEngineer.add_relationship) The tuple indicating the relationship between 2 dataframes was sucessfully added to the list of relationshipss ✅
+2022-08-22 15:00:54 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-22 15:00:54 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-22 15:00:54 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-22 15:00:54 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-22 15:00:54 - INFO - (test_api.test_fetch_customers_features) Endpoint /api/v1/features/customers runs sucessfully ✅
+2022-08-22 15:00:54 - INFO - (DataLoader.postprocess_loans_dataframe) Loans Data are postprocessed sucessfully ✅
+2022-08-22 15:00:54 - INFO - (FeatureEngineer.extract_features_loans) Manual extraction of features for the loans dataframe was successful ✅
+2022-08-22 15:00:54 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-22 15:00:54 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-22 15:00:54 - INFO - (FeatureEngineer.add_relationship) The tuple indicating the relationship between 2 dataframes was sucessfully added to the list of relationshipss ✅
+2022-08-22 15:00:55 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-22 15:00:55 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-22 15:00:55 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-22 15:00:55 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-22 15:00:55 - INFO - (test_api.test_fetch_customers_features) Endpoint /api/v1/features/customers runs sucessfully ✅
+2022-08-22 15:01:13 - INFO - ---------------------------------- Feature Engineering API Started
+2022-08-22 15:01:13 - INFO - (test_api.test_fetch_customer) Endpoint /api/v1/customers/1090 runs sucessfully ✅
+2022-08-22 15:01:13 - INFO - (test_api.test_register_customer) Endpoint /api/v1/customers/ runs sucessfully ✅
+2022-08-22 15:01:13 - INFO - (test_api.test_fetch_loan) Endpoint /api/v1/customers/1090 runs sucessfully ✅
+2022-08-22 15:01:13 - INFO - (test_api.test_register_loan) Endpoint /api/v1/loans for the loan registration was sucessful ✅
+2022-08-22 15:01:13 - INFO - (test_api.test_delete_customer) Endpoint /api/v1/customers/1090 runs sucessfully ✅
+2022-08-22 15:01:13 - INFO - (test_api.test_delete_loan) Endpoint /api/v1/loans/15 runs sucessfully ✅
+2022-08-22 15:01:13 - INFO - (DataLoader.postprocess_loans_dataframe) Loans Data are postprocessed sucessfully ✅
+2022-08-22 15:01:13 - INFO - (FeatureEngineer.extract_features_loans) Manual extraction of features for the loans dataframe was successful ✅
+2022-08-22 15:01:13 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-22 15:01:13 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-22 15:01:13 - INFO - (FeatureEngineer.add_relationship) The tuple indicating the relationship between 2 dataframes was sucessfully added to the list of relationshipss ✅
+2022-08-22 15:01:13 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-22 15:01:13 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-22 15:01:13 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-22 15:01:13 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-22 15:01:13 - INFO - (test_api.test_fetch_customers_features) Endpoint /api/v1/features/customers runs sucessfully ✅
+2022-08-22 15:01:13 - INFO - (DataLoader.postprocess_loans_dataframe) Loans Data are postprocessed sucessfully ✅
+2022-08-22 15:01:13 - INFO - (FeatureEngineer.extract_features_loans) Manual extraction of features for the loans dataframe was successful ✅
+2022-08-22 15:01:13 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-22 15:01:13 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-22 15:01:13 - INFO - (FeatureEngineer.add_relationship) The tuple indicating the relationship between 2 dataframes was sucessfully added to the list of relationshipss ✅
+2022-08-22 15:01:13 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-22 15:01:13 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-22 15:01:13 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-22 15:01:13 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-22 15:01:13 - INFO - (test_api.test_fetch_customers_features) Endpoint /api/v1/features/customers runs sucessfully ✅
+2022-08-22 15:02:36 - INFO - ---------------------------------- Feature Engineering API Started
+2022-08-22 15:02:36 - INFO - (test_api.test_fetch_customer) Endpoint /api/v1/customers/1090 runs sucessfully ✅
+2022-08-22 15:02:36 - INFO - (test_api.test_register_customer) Endpoint /api/v1/customers/ runs sucessfully ✅
+2022-08-22 15:02:37 - INFO - (test_api.test_fetch_loan) Endpoint /api/v1/customers/1090 runs sucessfully ✅
+2022-08-22 15:02:37 - INFO - (test_api.test_register_loan) Endpoint /api/v1/loans for the loan registration was sucessful ✅
+2022-08-22 15:02:37 - INFO - (test_api.test_delete_customer) Endpoint /api/v1/customers/1090 runs sucessfully ✅
+2022-08-22 15:02:37 - INFO - (test_api.test_delete_loan) Endpoint /api/v1/loans/15 runs sucessfully ✅
+2022-08-22 15:02:37 - INFO - (DataLoader.postprocess_loans_dataframe) Loans Data are postprocessed sucessfully ✅
+2022-08-22 15:02:37 - INFO - (FeatureEngineer.extract_features_loans) Manual extraction of features for the loans dataframe was successful ✅
+2022-08-22 15:02:37 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-22 15:02:37 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-22 15:02:37 - INFO - (FeatureEngineer.add_relationship) The tuple indicating the relationship between 2 dataframes was sucessfully added to the list of relationshipss ✅
+2022-08-22 15:02:37 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-22 15:02:37 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-22 15:02:37 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-22 15:02:37 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-22 15:02:37 - INFO - (test_api.test_fetch_customers_features) Endpoint /api/v1/features/customers runs sucessfully ✅
+2022-08-22 15:02:37 - INFO - (DataLoader.postprocess_loans_dataframe) Loans Data are postprocessed sucessfully ✅
+2022-08-22 15:02:37 - INFO - (FeatureEngineer.extract_features_loans) Manual extraction of features for the loans dataframe was successful ✅
+2022-08-22 15:02:37 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-22 15:02:37 - INFO - (FeatureEngineer.add_dataframe) Dataframe was sucessfully added to the dictionary of dataframes ✅
+2022-08-22 15:02:37 - INFO - (FeatureEngineer.add_relationship) The tuple indicating the relationship between 2 dataframes was sucessfully added to the list of relationshipss ✅
+2022-08-22 15:02:37 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-22 15:02:37 - INFO - (FeatureEngineer.run_dfs) DFS was sucessfully executed for all dataframes and relationships ✅
+2022-08-22 15:02:37 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-22 15:02:37 - INFO - (FeatureEngineer.store_features) Features were sucessfully saved as a csv file ✅
+2022-08-22 15:02:37 - INFO - (test_api.test_fetch_customers_features) Endpoint /api/v1/features/customers runs sucessfully ✅
+2022-08-22 15:02:37 - INFO - (DataReporter.cast_to_spreadsheet_friendly_format) Columns casted to string for compatability with Spreadsheets API ✅
+2022-08-22 15:02:42 - INFO - (DataReporter.write_to_spreadsheet) Data uploaded to Spreadsheet successfully ✅
+2022-08-22 15:02:42 - INFO - (test_api.test_upload_features_customers) Endpoint /api/v1/features/customers for features uploading runs sucessfully ✅
+2022-08-22 15:02:42 - INFO - (DataReporter.cast_to_spreadsheet_friendly_format) Columns casted to string for compatability with Spreadsheets API ✅
+2022-08-22 15:02:50 - INFO - (DataReporter.write_to_spreadsheet) Data uploaded to Spreadsheet successfully ✅
+2022-08-22 15:02:50 - INFO - (test_api.test_upload_features_loans) Endpoint /api/v1/features/loans for features uploading runs sucessfully ✅

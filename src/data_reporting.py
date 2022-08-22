@@ -46,13 +46,13 @@ class DataReporter(object) :
 
 		
 		# google sheets
-		self.optasia_reporter_spreadsheet_id = str(config.get("google_sheets","optasia_reporter_spreadsheet_id"))
+		self.optasia_reporter_spreadsheet_id = str(config.get("google_sheets","api_reporter_spreadsheet_id"))
 		self.tabs = { 
-			"customers"          : str(config.get("google_sheets","optasia_reporter_tab_customers")),
-			"loans"              : str(config.get("google_sheets","optasia_reporter_tab_loans")),
-			"overview"           : str(config.get("google_sheets","optasia_reporter_tab_overview")),
-			"customers_features" : str(config.get("google_sheets","optasia_reporter_tab_customers_features")),
-			"loans_features"     : str(config.get("google_sheets","optasia_reporter_tab_loans_features"))
+			"customers"          : str(config.get("google_sheets","api_reporter_tab_customers")),
+			"loans"              : str(config.get("google_sheets","api_reporter_tab_loans")),
+			"overview"           : str(config.get("google_sheets","api_reporter_tab_overview")),
+			"customers_features" : str(config.get("google_sheets","api_reporter_tab_customers_features")),
+			"loans_features"     : str(config.get("google_sheets","api_reporter_tab_loans_features"))
 		
 		}	
 

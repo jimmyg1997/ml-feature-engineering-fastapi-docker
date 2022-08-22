@@ -17,9 +17,9 @@
 version: "3"
 services:
   api:
-    # Specifies the path to Docker file &&the tag name respectively.
+    # Specifies thse path to Docker file &&the tag name respectively.
     build: ./
-    image: optasia/demo-docker:v1
+    image: api/demo-docker:v1
     # Specifies the set of commands we want to run inside the container.
     command:  uvicorn src.main:app --reload --workers 1 --host 0.0.0.0 --port 8000
     # Specifies port mappings <host_port>:<container_port>
