@@ -37,8 +37,8 @@ api
 │   └─── markI.py
 │
 └───data
-│   │    cvas_data.csv
-│   └─── cvas_data.json
+│   │    data.csv
+│   └─── data.json
 │  
 └───features
 │   │    features_loans.csv
@@ -50,7 +50,7 @@ api
 │  
 └───config
     └─── gspread
-          └─── service-api.json
+          └─── service.json
 ```
 
 
