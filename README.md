@@ -3,7 +3,7 @@ The objective of this prohcet is to create a simpl feature engineering module th
 
 
 
-## TECH STACK
+## 🚀 TECH STACK
 
 For project the following tech stack, APIs, architecture was used and applied: 
 
@@ -17,7 +17,7 @@ For project the following tech stack, APIs, architecture was used and applied:
 
 
 
-## FILES HIERARCHY
+## 📁 FILES HIERARCHY
 
 ```
 api
@@ -61,7 +61,7 @@ api
 
 
 
-## ENDPOINTS
+## 📌 ENDPOINTS
 
 Please feel free to hit all our endpoints by visiting http://localhost:8000/docs#/. The list of the endpoints is the following
 
@@ -91,7 +91,7 @@ Please feel free to hit all our endpoints by visiting http://localhost:8000/docs
 
 
 
-## UNIT TESTING
+## 1️⃣ UNIT TESTING
 
 In order for the unit testing to be successful I had to move from a 
 
@@ -105,7 +105,7 @@ Therefore, now with the unit testing (all the tests can be found under **/tests/
 
 
 
-## SPREADSHEET
+## 📋 SPREADSHEET
 
 In the spreadsheet [Feature Engineering API Reporter](https://docs.google.com/spreadsheets/d/1iIBuignJj5oPW7NDRlirenACJuEEeV2RZOi5X9NSH7A/edit#gid=822346508) several tabs can be found and all are split into 2 clusters
 
@@ -115,7 +115,7 @@ In the spreadsheet [Feature Engineering API Reporter](https://docs.google.com/sp
 
 
 
-## RECOMMENDED USAGE
+## 👇 RECOMMENDED USAGE
 
 ####  Setup Python Virtual Environment
 1. apt-get update
@@ -163,7 +163,7 @@ Visit http://localhost:8000/docs#/.
 ```$ docker-compose down```
 
 
-## FEATURE WORK 
+## 🔮 FUTURE WORK 
 
 Feature Work would be 
 
