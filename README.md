@@ -128,6 +128,9 @@ In the spreadsheet Optasia API Reporter several tabs can be found and all are sp
 7. conda create --name featengapi python=3.8
 8. conda activate featengapi
 
+#### Export PYTHONPATH  
+export PYTHONPATH="${PYTHONPATH}:/path/to/your/project/"
+
 #### Deploy with docker compose
 Execute the command 
 
