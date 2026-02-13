@@ -1,5 +1,5 @@
 # pull the official docker image
-FROM python:3.8-slim
+FROM python:3.14.3-slim
 #FROM tiangolo/uvicorn-gunicorn-fastapi:python3.9
 
 # set work directory
